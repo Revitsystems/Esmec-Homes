@@ -47,7 +47,7 @@
   --primary-color: #191a1f;
   --secondary-color: #f9f9f9;
   --text-color: #808080;
-  --accent-color: rgb(208, 208, 6);
+  --accent-color: #fdcb05;
   --white-color: #ffffff;
   --divider-color: #80808024;
   --dark-divider-color: #ffffff1f;
@@ -319,11 +319,6 @@ body {
   }
 }
 
-.hero-content h2,
-.hero-content h3 {
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
-}
-
 .section-row {
   margin-bottom: 80px;
 }
@@ -465,11 +460,11 @@ header.main-header .header-sticky.active {
 .navbar-brand {
   padding: 0;
   margin: 0;
-  width: 100px;
 }
 
 .navbar-brand img {
-  width: 100%;
+  width: 95px;
+  height: 45px;
 }
 
 .main-menu .nav-menu-wrapper {
@@ -1274,7 +1269,6 @@ header.main-header .header-sticky.active {
 
 .property-tab-nav ul li .nav-link {
   position: relative;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
   background: transparent;
   border: none;
   color: var(--text-color);
@@ -1426,7 +1420,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .our-features {
-  background: var(--primary-color);
+  background: url("../images/our-features-bg.png"), var(--primary-color);
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: auto;
@@ -1507,13 +1501,10 @@ header.main-header .header-sticky.active {
 
 .our-amenities {
   padding: 100px 0;
+  background: url("../images/section-bg.png"), var(--secondary-color);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
-
-.amenities-abt {
-  background: var(--white-color);
 }
 
 .our-amenities-list {
@@ -1735,7 +1726,6 @@ header.main-header .header-sticky.active {
 .experience-counter-content p {
   text-transform: uppercase;
   margin: 0;
-  font-size: 11px;
 }
 
 /************************************/
@@ -2250,17 +2240,6 @@ header.main-header .header-sticky.active {
   margin: 0;
 }
 
-.post-item-content h3 {
-  font-size: 17px;
-  line-height: 1.4em;
-  margin: 15px 0px;
-}
-
-.post-item-content ul li {
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-
 .post-item-btn a {
   position: relative;
   color: var(--primary-color);
@@ -2701,7 +2680,7 @@ header.main-header .header-sticky.active {
 
 .cta-box {
   padding: 50px 0 0;
-  background: var(--primary-color);
+  background: url(../images/our-features-bg.png), var(--primary-color);
   background-repeat: no-repeat;
   background-position: left -80px bottom -90px;
   background-size: auto;
@@ -2727,9 +2706,6 @@ header.main-header .header-sticky.active {
 
 .page-amenities {
   padding: 100px 0 70px;
-  background: url(../images/about-us-bg.svg) no-repeat;
-  background-position: right center;
-  background-size: auto;
 }
 
 .our-amenities-item {
