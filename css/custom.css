@@ -1131,7 +1131,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .our-apartments {
-  background: url("../images/section-bg.png"), var(--secondary-color);
+  background: var(--secondary-color);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1312,7 +1312,6 @@ header.main-header .header-sticky.active {
   bottom: -50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url(../images/property-bg-shape.svg) no-repeat;
   background-size: cover;
   height: 375px;
   width: 375px;
@@ -1420,7 +1419,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .our-features {
-  background: url("../images/our-features-bg.png"), var(--primary-color);
+  background: var(--primary-color);
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: auto;
@@ -2319,7 +2318,7 @@ header.main-header .header-sticky.active {
 }
 
 .footer-contact-info h2 {
-  font-size: 44px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: underline;
@@ -2327,15 +2326,15 @@ header.main-header .header-sticky.active {
   margin-bottom: 20px;
 }
 
-.footer-contact-info h3 {
-  font-size: 40px;
+.footer-contact-info h4 {
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 40px;
   color: var(--white-color);
 }
 
 .footer-contact-info h2 a,
-.footer-contact-info h3 a {
+.footer-contact-info h4 a {
   color: inherit;
 }
 
@@ -5203,11 +5202,14 @@ header.main-header .header-sticky.active {
   }
 
   .property-content-types {
-    gap: 20px 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
   }
 
   .property-type-item {
-    width: calc(50% - 7.5px);
+    width: 100%;
   }
 
   .property-type-item::before {
