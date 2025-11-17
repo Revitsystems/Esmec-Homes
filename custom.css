@@ -1714,11 +1714,11 @@ header.main-header .header-sticky.active {
   text-align: left;
 }
 
-.experience-counter-content h2 {
+.our-experience .experience-counter-content h2 {
   font-size: 22px;
 }
 
-.experience-counter-content p {
+.our-experience .experience-counter-content p {
   text-transform: uppercase;
   margin: 0;
 }
@@ -2593,33 +2593,6 @@ header.main-header .header-sticky.active {
   object-fit: cover;
 }
 
-.why-choose-icon-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.why-choose-icon-box figure {
-  height: 120px;
-  width: 120px;
-  background-color: var(--accent-color);
-  border: 10px solid var(--white-color);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease-in-out;
-}
-
-.why-choose-icon-box:hover figure {
-  background-color: var(--primary-color);
-}
-
-.why-choose-icon-box img {
-  max-width: 42px;
-}
-
 .why-choose-list-item {
   display: flex;
   border-bottom: 1px solid var(--divider-color);
@@ -2760,6 +2733,12 @@ header.main-header .header-sticky.active {
 
 .amenities-content h3 a {
   color: inherit;
+}
+
+.amenities-content .paragraph-tag {
+  color: var(--white-color);
+  font-size: 15px;
+  text-transform: capitalize;
 }
 
 .amenities-btn {
