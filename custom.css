@@ -2421,14 +2421,14 @@ header.main-header .header-sticky.active {
 
 .footer-copyright-text {
   border-top: 1px solid var(--dark-divider-color);
-  margin-top: 40px;
+  margin: 40px;
   padding: 40px 0;
 }
 
 .footer-copyright-text p {
   color: var(--white-color);
-  text-align: center;
-  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /************************************/
